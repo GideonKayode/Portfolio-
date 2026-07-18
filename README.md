@@ -18,26 +18,12 @@ This project is a multi-page personal academic portfolio and student management 
 - JavaScript
 
 ## Project Structure
-gideon-student-portfolio/
-│
-├── index.html
-├── about.html
-├── projects.html
-├── planner.html
-├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   ├── planner.js
-│   └── contact.js
-│
-├── images/
-│   ├── profile.jpg
-│   ├── project1.jpg
-│   ├── project2.jpg
-│   └── project3.jpg
-│
-├── media/
-│   └── intro.mp4
+- index.html
+- about.html
+- projects.html
+- planner.html
+- contact.html
+- css/
+- js/
+- images/
+- media/
