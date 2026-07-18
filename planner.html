@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Academic Planner</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <h2>My Portfolio</h2>
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About Me</a></li>
+
+            <li><a href="projects.html">Projects</a></li>
+
+            <li><a href="planner.html" class="active">Academic Planner</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main class="container">
+
+    <section class="card">
+
+        <h1>Academic Planner</h1>
+
+        <p>
+
+            Organize your assignments, study schedule and academic activities.
+
+        </p>
+
+    </section>
+
+    <section class="planner-card">
+
+        <h2>Add New Task</h2>
+
+        <div class="task-input">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new academic task">
+
+            <button id="addTaskBtn">
+
+                Add Task
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="planner-card">
+
+        <h2>My Tasks</h2>
+
+        <ul id="taskList">
+
+            <!-- JavaScript will insert tasks here -->
+
+        </ul>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+
+        © 2026 Gideon Ayomide Kayode | Student Academic Portfolio
+
+    </p>
+
+</footer>
+
+<script src="js/planner.js"></script>
+
+</body>
+
+</html>
